@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+font-family: "Epilogue";
+font-size: 2em;
+}
+
+h2{
+    font-family: "Epilogue";
+    font-weight: 400;
+}
+
+h3{
+    font-family: "Epilogue";
+}
+
+p {
+    font-family:"Epilogue";
+}
