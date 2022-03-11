@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 33.333vh 33.333vh 33.333vh;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "head"
+      "box1"
+     "box2"
+     "box3"
+      "box4";
+  }
+
+
+h1{
+    font-family: "Epilogue";
+   
+    font-weight: 700;
+    font-size: 100px;
+    
+    
+        
+    }
+    
+    h2{
+        font-family: "Epilogue";
+        font-weight: 700;
+        font-size: 50px;
+    }
+    
+    h3{
+        font-family: "Epilogue";
+
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    h4{
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+
+    h5{
+        font-family: "Epilogue";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    p {
+        font-family:"Epilogue";
+    }
+  
+  .head { grid-area: head;
+    text-align: center;
+    background: #EEFF85;
+
+}
+  
+  .box1 { grid-area: box1; 
+    padding: 250px 70px 0px 0px;    
+background: #F7FFDF;
+}
+  
+  .box2 { grid-area: box2;
+background: #EEB64D; }
+
+.four-pointed-star{
+    position:relative;
+    margin:1em auto;
+    width:1em;
+    font-size:12em;
+  }
+  
+  .four-pointed-star:before{
+    content:"";
+    position:absolute;
+    background:red;
+    width:1em;
+    height:1.15em;
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+  
+  .four-pointed-star:after{
+    content:"";
+    position:absolute;
+    background:red;
+    width:1em;
+    height:1.15em;
+    transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+  
+  .box3 { grid-area: box3;
+background: mintcream; 
+
+margin: auto;
+
+}
+  
+  .box4 { grid-area: box4;
+background: #842E82;
+
+margin: auto; }
+  
+
+
+
+
+
+
+  /* X-Large devices (large desktops, 1200px and up)*/
+  @media (min-width: 800px) {
+    body {
+      background: var(--color-light);
+    }
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 33.333vh 33.333vh 33.333vh;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "head head head"
+      "box1 box2 box3"
+      "box1 box2 box4";
+  }
+  }
+
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    body {
+      background: var(--color-lightest);
+    }
+  }
