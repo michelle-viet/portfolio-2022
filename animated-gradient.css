@@ -1,21 +1,9 @@
-:root {
-    --gradient: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
-  }
+:root {}
 
   .hero {
-    background-size: 600%;
-    background-image: var(--gradient);
-    animation: bg-animation 120s infinite alternate;
+    background-size: 40px 40px;
+  background-image: linear-gradient(to right, #F0F8FF 1px, transparent 1px),
+    linear-gradient(to bottom, #F0F8FF 1px, transparent 1px);
   }
   
-  @keyframes bg-animation {
-    0% {background-position: 0%;}
-    100% {background-position: 100%;}
-  }
-  
-  
-  @keyframes bg-animation {
-    0% {background-position: 0%;}
-    100% {background-position: 100%;}
-  }
-  
+ 

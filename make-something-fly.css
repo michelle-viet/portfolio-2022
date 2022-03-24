@@ -1,4 +1,4 @@
-.ghost {
+/* .ghost {
     animation: fly 60s linear infinite;
     top: 0;
   left: 0;
@@ -46,4 +46,4 @@
   100% {
     transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
   }
-  }
+  } */
