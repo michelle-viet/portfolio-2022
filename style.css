@@ -191,6 +191,7 @@ p {
 
 .work-wrapper {
   flex: 1;
+  background-color: #F2FCD2;
 }
 
 /* Padding around work grid and project page */
@@ -530,4 +531,9 @@ Grayscale filter with full-colour on hover and tap
       /* background: var(--color-lightest); */
     }
   }}
+  
+#img{
+  width: 90%;
+  height: 90%;
+}
   
